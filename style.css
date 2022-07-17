@@ -67,10 +67,88 @@ h1{
     margin-bottom: 10px;
 }
 .info{
-    background-color: aquamarine;
     padding: 25px;
     margin: 10px;
+    border-radius: 6px;
+
+}
+.info1{
+    background-color: bisque;
+}
+.info2{
+    background-color: pink;
+}
+.info3{
+    background-color: aquamarine;
 }
 .donate-info{
     display: flex;
+}
+.help-poor{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-bottom: 60px;
+}
+.helppoor-img img{
+    width: 350px;
+    margin-top: 30px;
+   
+}
+.helppoor-text{
+    width: 400px;  
+    margin-right: 50px;  
+}
+.helppoor-text a{
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+.help-poor2{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.img2 img{
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.get-myupdates{
+    text-align: center;
+}
+.get-myupdates p{
+    width: 60%;
+    margin: auto;
+}
+.myupdate-text{
+    margin-bottom: 30px;
+}
+.update-email{
+    padding: 80px;
+    background-color: bisque;
+    margin: 85px;
+}
+.update-email input{
+    border: none;
+    padding: 8px;
+}
+.update-email button{
+    border: none;
+    background-color: brown;
+    color: white;
+    padding: 8px;
+}
+footer{
+    margin-top: 20px;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+footer h2{
+   color: brown;
+}
+footer p{
+    color: white;
 }
